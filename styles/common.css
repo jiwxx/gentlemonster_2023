@@ -4,7 +4,7 @@
 html {scrollbar-width: 10px;;scrollbar-color: #222 #f1f1f1;}
 /* Opera */
 html::-o-scrollbar {width: 10px;}/*스크롤바 크기*/
-html::-o-scrollbar-thumb {background-color: #222;border-radius: 3px;}/*스크롤 드래그바*/
+html::-o-scrollbar-thumb {background-color: #f1f1f1;border-radius: 3px;}/*스크롤 드래그바*/
 html::-o-scrollbar-thumb:hover {background-color: #C3E4F2;}
 /* Chrome, Safari, Edge 등 웹킷 기반 브라우저 */
 ::-webkit-scrollbar {width: 15px;}/*스크롤바 크기*/
@@ -14,7 +14,6 @@ html::-o-scrollbar-thumb:hover {background-color: #C3E4F2;}
 /* header */
 header {
     margin:0 auto;
-    background-color: skyblue;
     width:calc(100% - 60px);
     height:100px;
     display:flex; flex-flow: row nowrap;
@@ -24,7 +23,6 @@ header > * {
     
 }
 header h1 {
-    background-color: plum;
     width:250px;
     align-self: center;
 }
@@ -33,7 +31,6 @@ header h1 a {
 }
 header h1 a img {width:100%;}
 header .right {
-    background-color: lightseagreen;
     display: flex; flex-flow: row nowrap;
     align-items: center;
     
@@ -51,10 +48,10 @@ header .right #searchFrm fieldset {
     justify-content: space-between;
     align-items: center;
 }
-header .right #searchFrm fieldset input::placeholder {}
+header .right #searchFrm fieldset input::placeholder {color:#000;}
 header .right #searchFrm fieldset input {
     background:none;
-    color:#fff;
+    color:#000;
 }
 header .right #searchFrm fieldset #searchTxt {}
 header .right #searchFrm fieldset #searchBtn {
