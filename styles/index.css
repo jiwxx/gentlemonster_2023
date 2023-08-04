@@ -1,0 +1,89 @@
+/* main */
+/* main -1. visual 영역 */
+main {
+    margin:0 auto;
+}
+main .visual {
+    letter-spacing: -0.02em;
+    height: 100vh;
+    overflow: hidden;
+    position:relative;
+}
+main .visual .txt > * {margin-bottom:30px;}
+main .visual .txt {
+    text-align: center; z-index:900;
+    position: absolute; top:40%;
+    width:100%;
+}
+main .visual .txt p {
+    font-size:2.3rem;
+    color: #fff;;
+    
+}
+main .visual .txt h1 {
+    font-size: 3.1rem;
+    color:#C3E4F2; font-weight: 700;
+    
+}
+main .visual .txt .link {
+    margin-bottom: 0;
+    display:flex; flex-flow: row nowrap;
+    justify-content: center;
+}
+main .visual .txt .link a {
+    /* display: flex; flex-flow: row nowrap;
+    justify-content: center; align-items: center; */
+    display: block;
+    font-size: 1.7rem;
+    background-color:rgba(195,228,242,0.5);
+    padding:19px 0px;
+    width:250px;
+    border-radius: 15px;
+    color:#fff;
+    transition:background-color 0.3s ease;
+}
+main .visual .txt .link a:hover {
+    background-color: #222;
+    
+}
+main .visual .txt .link a:last-child {margin-left:10px;}
+main .visual video {
+    /* 방법3 절대크기값 */
+    /* width:1920px; */
+    width:100%;
+    /* 화면크기 조정 시 비디오 중심축 맞추기 */
+    /* 필수 조건 (중요) 비디오의 부모가 vh or px 높이 설정 준비! (절대퍼센트%는 안된다.) */
+    position:absolute; left:50%;
+    transform:translateX(-50%)
+}
+/* width 비율의 video 화면 전체 배치 시 여백해결법 */
+/* 1.반응형웹 @media 특정해상도마다 비디오의 크기 설정값 변경 */
+/* 2. 가장 큰 데스크탑 기준으로 너비를 100%보다 크게 설정하고 넘치게하는 방법 */
+/* 3. 상대 크기가 아닌 절대 크기값(px) 크기를 설정해서 화면 해상도에 영향을 받지 않는 방법 */
+main .adver_bnr {
+    background:url(../images/bnr2.jpg)no-repeat;
+    height: 300px;
+}
+main .adver_bnr .txt {
+    color:#fff;
+    display: flex; flex-flow: column nowrap;
+    align-items: flex-end;
+    padding-top:78px;
+}
+main .adver_bnr .txt > * {
+    margin:20px 0;
+    margin-right:30px;
+}
+main .adver_bnr .txt p {
+    font-size: 1.7rem;
+}
+main .adver_bnr .txt h2 {
+    font-size: 3.1rem; font-weight: 700;
+}
+main .adver_bnr .txt .link {
+    
+}
+main .adver_bnr .txt .link a {
+    color:#fff;
+    font-size: 1.3rem;
+}
