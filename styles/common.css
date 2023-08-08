@@ -160,3 +160,37 @@ header #open_nav nav a:nth-child(7):hover {
     background-position:center;
     background-position-y: 5px;
 }
+footer {
+    letter-spacing: -0.02em;
+    padding:0 30px;
+    background-color: #f1f1f1;
+    /* width:calc(100% - 60px); margin:0 auto; */
+}
+footer .f_menu {
+    display: flex; flex-flow:row nowrap;
+}
+footer .f_menu dl {
+    margin-right:30px;
+}
+footer .f_menu dl dt {
+    font-weight: 600;
+    margin:20px 0;
+}
+footer .f_menu dl dd {
+    line-height: 35px;
+}
+footer .f_menu dl dd a {}
+footer .f_copy {
+    margin-top:30px;
+    display: flex; flex-flow: row nowrap; 
+    align-items: center;
+}
+footer .f_copy .logo {width:213px; height:42px;}
+footer .f_copy .logo img {width:100%;}
+footer .f_copy address {
+    margin-left:30px;
+    line-height: 25px;
+}
+footer .f_copy address a {}
+
+
