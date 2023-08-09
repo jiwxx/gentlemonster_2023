@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN | GENTLEMONSTER</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <!-- header -->
+    <main>
+        <h1><img src="./images/logo.png" alt="젠틀몬스터"></h1>
+        <div class="log">
+            <form action="#" id="loginFrm">
+                <fieldset>
+                    <legend class="skip">로그인 양식</legend>
+                    <p><input type="text" name="id" id="id" placeholder="아이디를 입력하세요"></p>
+                    <p>
+                        <input type="password" name="id" id="pw" placeholder="비밀번호를 입력하세요">
+                    </p>
+                    <button type="button" id="hidden"><img src="./images/Hidden.png" alt="비밀번호 숨기기"></button>
+                </fieldset>
+                <button type="submit" id="logBtn">로그인</button>
+            </form>
+            <from action="#" id="log_btm">
+                <fieldset>
+                    <label for="ch_save">
+                        <input type="checkbox" id="ch_save"name="check" value="check"> <span>아이디 저장</span>
+                    </label>
+                    <a href="#" class="find">아이디/비밀번호 찾기</a>
+                </fieldset>
+            </from>
+        </div>
+        <div class="sns">
+            <a href="#"><img src="./images/login_sns1.png" alt="구글 로그인"></a>
+            <a href="#"><img src="./images/login_sns2.png" alt="카카오톡 로그인"></a>
+            <a href="#"><img src="./images/login_sns3.png" alt="네이버 로그인"></a>
+            <p>개인정보 보호를 위해 공용 PC에서 사용 시 SNS계정의<br>
+                로그아웃상태를 꼭 확인해 주세요.</p>
+        </div>
+        <div class="signin">
+            <a href="#" id="sign">회원가입</a>
+            <a href="#" id="searchOdr">비회원 주문조회</a>
+        </div>
+        <div class="phoneLog">
+            <p class="line"></p>
+            <a href="#">
+                <img src="./images/icon_call.png" alt="">
+                <span>휴대폰 번호로 로그인</span>
+            </a>
+        </div>
+    </main>
+    <!-- footer -->
+</body>
+</html>

@@ -1,0 +1,123 @@
+main {
+    width:calc(100% - 60px);
+    letter-spacing: -0.02em;
+    margin:0 auto;
+    /* background: pink; */
+    text-align: center;
+    display:flex; flex-flow: column nowrap;
+    padding-top:100px;
+}
+main > * {margin-bottom:50px;}
+main h1 {
+    width:300px;height: 59px;
+    margin: 0 auto;
+}
+main h1 img {width: 100%;}
+main .log {/* background-color: bisque; */}
+main .log #loginFrm {
+    /* background-color: aquamarine; */
+    position: relative;
+    width:450px;
+    margin: 0 auto;
+}
+main .log #loginFrm fieldset {
+    
+}
+main .log #loginFrm fieldset p {}
+main .log #loginFrm fieldset p #pw,
+main .log #loginFrm fieldset p #id {
+    width:450px; height:53px;
+    border:1px solid #6f6f6f;
+    padding:15px 10px;
+    
+}
+main .log #loginFrm fieldset p #id {
+    border-radius: 5px 5px 0 0;
+    border-bottom:0px;
+}
+main .log #loginFrm fieldset p #pw {
+    border-radius: 0 0 5px 5px;
+    
+}
+main .log #loginFrm fieldset #hidden {
+    /* 비밀번호 숨기기 onoff */
+    background-color:#fff;
+    position: absolute; top:70px; right:15px;
+}
+main .log #loginFrm fieldset p img {}
+main .log #loginFrm #logBtn {
+    background:#222; color:#fff;
+    width:450px; height: 60px;
+    border-radius:5px;
+    font-size: 1.3rem;
+    margin-top:20px;
+}
+main .log #log_btm {
+    
+}
+main .log #log_btm fieldset {margin-top: 5px;}
+main .log #log_btm fieldset label {
+    padding-right: 205px;
+    
+}
+/* 아이디 저장 */
+main .log #log_btm fieldset label #ch_save:checked+span {
+    background: url(../images/icon_check.png) no-repeat;
+    padding-left:20px;
+    width:20px;
+}
+main .log #log_btm fieldset label span {
+    background: url(../images/icon_uncheck.png) no-repeat;
+    padding-left:20px; width:20px;
+}
+main .log #log_btm fieldset label #ch_save {
+    appearance: none;
+}
+main .log #log_btm label input span {}
+main .log #log_btm .find {}
+main .sns {}
+main .sns a {
+    margin-right: 20px;
+}
+main .sns a:nth-of-type(3) {
+    margin-right: 0;
+}
+main .sns p {
+    line-height: 25px;
+    margin-top:10px;
+    color:#6f6f6f;
+}
+main .signin {
+    display:flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .signin #searchOdr,
+main .signin #sign {
+    width:450px; height: 60px;
+    font-size: 1.3rem;
+    padding-top: 20px;
+    border-radius: 5px;
+    border:1px solid #6f6f6f;
+    font-weight: 500;
+}
+main .signin #sign {
+    background-color:#C3E4F2;
+    margin-bottom: 10px;
+}
+main .signin #searchOdr {
+    background-color: #fff;
+}
+main .phoneLog {}
+main .phoneLog .line {
+
+}
+main .phoneLog a {
+    display: inline-block;
+    width:450px; height:80px;
+    background-color: #f5f5f5;
+    padding-top:25px;
+    border-radius: 5px;
+    text-align: center;
+}
+main .phoneLog a img {}
+main .phoneLog a span {font-size: 1.3rem; font-weight: 500;}
