@@ -8,11 +8,11 @@ main {
     padding-top:100px;
 }
 main > * {margin-bottom:50px;}
-main h1 {
+main .Mlogo {
     width:300px;height: 59px;
     margin: 0 auto;
 }
-main h1 img {width: 100%;}
+main .Mlogo img {width: 100%;}
 main .log {/* background-color: bisque; */}
 main .log #loginFrm {
     /* background-color: aquamarine; */
