@@ -1,0 +1,11 @@
+#map {
+    background-color: lavender;
+    width:700px; margin:50px auto; height:500px;
+}
+h1 {
+    font-size: 2.1rem; font-weight: 600; text-align: center;
+    margin-top:50px;
+}
+p {
+    text-align: center;
+}

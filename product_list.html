@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF_8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device_width, initial_scale=1.0">
     <title>안경 | GENTLEMONSTER</title>
     <!-- swiper slide -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-/>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/product.css">
 </head>
 <body>
     <!-- header.php -->
+    <?php include("./header.php") ?>
     <main> 
         <!-- 1. swiper_slide -->
         <div class="swiper" id="product_slide">
@@ -217,6 +216,8 @@
         </div>
     </main>
     <!-- footer.php -->
+    <?php include("./footer.php") ?>
+    <script src="./script/common.js"></script>
     <script>
         //특정 페이지에만 해당하는 JS동작기능은 내부 스크립트로 작성해도 된다.
         //product_slide 기능은 product_list.html에만 존재한다.(내부)
